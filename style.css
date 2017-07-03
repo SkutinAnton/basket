@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+body {
+    margin: 50px;
+}
+
+.allGoods {
+    float: left;
+    width: 300px;
+    background: whitesmoke;
+}
+
+#basket {
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    background: #c42020;
+    text-align: center;
+    color: #edeef8;
+    padding: 10px;
+}
+
+#basket p:first-child {
+    margin-bottom: 20px;
+}
+
+
+.basketGoods {
+    background-color: #e5e5e5;
+    color: #c42020;
+    margin-top: 4px;
+    height: 20px;
+    padding: 3px;
+}
+
+.goods {
+    margin: 15px 15px 60px 15px;
+    clear: both;
+
+}
+
+.good {
+    padding: 10px 5px 10px 10px;
+    background-color: #c42020;
+    color: #f8f8f8;
+}
+
+.price {
+    padding: 5px;
+    float: left;
+    font-size: 20px;
+    color: #ec4040;
+}
+
+.buy {
+    float: right;
+    margin-top: 5px;
+    width: 80px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+}
